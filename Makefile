@@ -5,5 +5,4 @@ default:
 
 install:
 	git submodule init && git submodule update --remote
-	cd application
-	make libraries
+	cd application && make libraries
