@@ -22,7 +22,7 @@ install:
 	@echo "Setup OntoWiki"	
 	@echo "##############"
 	@echo ""
-	cd application && make install
+	cd application && make deploy
 	
 	@echo ""
 	@echo ""
